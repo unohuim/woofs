@@ -1,0 +1,2396 @@
+/* 
+
+Template Name: Woofs
+
+Author: Shariful i. (msi)
+
+Author url: http://msiapurno.com
+
+*/
+
+
+
+/* 
+
+Table of Content
+
+--------------------------------------------
+
+1. General
+
+2. header
+
+3. loving-dogs
+
+4. mind-protection
+
+5. lets-talk
+
+6. testimonials
+
+7. different
+
+8. contact
+
+9. footer
+
+10. about.html
+
+11. dog-train.html
+
+12. gallery.html
+
+13. contact.html
+
+14. service-areas.html
+
+*/
+
+
+
+/* 1. General
+
+--------------------------------------------
+
+*/
+
+html, body {
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 14px;
+
+	font-weight: 300;
+
+	color: #797979;	
+
+}
+
+
+
+a, a:hover, a:active, a:focus{
+
+	text-decoration: none;
+
+}
+
+
+
+p{
+
+	line-height: 24px;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+
+	
+
+}
+
+
+
+ul{
+
+	margin-bottom: 0;
+
+}
+
+
+
+li{
+
+	list-style-type: none;
+
+}
+
+
+.footer-section-padding{
+
+	padding: 20px 0;
+
+}
+
+.section-padding{
+
+	padding: 70px 0;
+
+}
+
+
+
+.section-padding-top{
+
+	padding-top: 70px;
+
+}
+
+
+
+.section-padding-bottom{
+
+	padding-bottom: 70px;
+
+}
+
+
+
+input:focus, textarea:focus, input:active, textarea:active{
+
+	outline: none;
+
+}
+
+
+
+/* 2. header 
+
+--------------------------------------------
+
+*/
+
+
+
+header.home{
+
+	background: url(../images/banner.jpg) no-repeat #fff;
+
+	background-size: cover;
+
+	position: relative;
+
+	margin-top: 0;
+
+	padding-top: 3px;
+
+}
+
+
+
+header{
+
+	margin-top: 3px;
+
+}
+
+
+
+.logo{
+
+	float: left;
+
+	margin-right: 25px;
+
+}
+
+
+
+.subtitle > span{
+
+	color: #87ab40;
+
+	text-transform: uppercase;
+
+	font-family: 'DINProMedium';
+
+	line-height: 18px;
+
+    padding-top: 12px;
+
+    display: block;
+
+}
+
+
+
+.daycare{
+
+	color: #9D3793;
+
+}
+
+
+
+/*Main Menu*/
+
+
+
+button#c-button--push-right{
+
+	position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+    z-index: 99999;
+
+    margin-top: 20px;
+
+    margin-right: 20px;
+
+    background: none;
+
+    border: none;
+
+    color: #fff;
+
+    font-size: 35px;
+
+    outline: none;
+
+}
+
+
+
+nav{
+
+	float: right;
+
+}
+
+
+
+.nav>li{
+
+	padding: 20px 12px;
+
+}
+
+
+
+.nav>li:last-child{
+
+	font-family: 'DINProMedium';
+
+    color: #808080;
+
+    padding-right: 0px;
+
+}
+
+
+
+.nav>li>a{
+
+	color: #87ab40;
+
+	font-family: 'DINProLight';
+
+	padding: 0;
+
+}
+
+
+
+.nav>li>a:hover, .nav>li>a:focus, .nav>li>a.active {
+
+	color: #000;
+
+    text-decoration: none;
+
+    background-color: rgba(238, 238, 238, 0);
+
+}
+
+
+
+.nav>li>a.active {
+
+    font-family: 'DINProMedium';
+
+}
+
+
+
+/*Banner title*/
+
+
+
+.banner-title{
+
+	margin-top: 200px;
+
+	margin-bottom: 100px;
+
+}
+
+
+
+.banner-title h2{
+
+	color: #fff;
+
+	font-size: 48px;
+
+	margin-bottom: 15px;
+
+	font-family: 'DINProMedium';
+
+	text-shadow: 1px 2px 3px #000;
+
+}
+
+
+.banner-title h3{
+
+	font-size: 28px;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-family: 'DINProBold';
+
+    margin-bottom: 3px;
+
+}
+
+
+
+.banner-title span{
+
+	font-family: 'DINProLight';
+
+	font-size: 24px;
+
+	color: #fff;
+
+	display: block;
+
+	margin-bottom: 70px;
+
+	text-shadow: 1px 2px 1px #000;
+
+}
+
+
+button.title {
+	margin: 0px 15px 0px 0px;
+}
+
+
+.banner-title button.inquire{
+
+	font-family: 'DINProLight';
+
+    font-size: 24px;
+
+    
+
+    outline-color: #53780b;
+
+    outline-style: solid;
+
+    display: block;
+
+    border: none;
+
+    width: 265px;
+
+    text-align: center;
+
+    padding: 10px;
+
+    color: #fff;
+
+    background-color: transparent;
+
+    margin: 0 auto;
+
+}
+
+
+
+.banner-title button.inquire:hover{
+
+    background: #53780b;
+
+    color: #fff;
+
+}
+
+
+
+/* 3. loving-dogs
+
+--------------------------------------------
+
+*/
+
+
+
+.loving-dogs{
+
+	background: #f0f0f0;
+
+	padding-bottom: 50px;
+
+}
+
+
+
+.section-heading{
+
+	position: relative;
+
+}
+
+
+
+.section-heading:before{
+
+	content: "";
+
+    position: absolute;
+
+    width: 118px;
+
+    height: 4px;
+
+    background: #9D3793;
+
+    bottom: -20px;
+
+    left: 0;
+
+    right: 0;
+
+    margin: 0 auto;
+
+}
+
+
+
+.section-heading h2{
+
+	font-size: 36px;
+
+    color: #9d3493;
+
+    text-transform: uppercase;
+
+    font-family: 'DINProBold';
+
+    margin-bottom: 3px;
+
+}
+
+
+
+.section-heading span{
+
+	font-size: 18px;
+
+	color: #9d3493;
+
+	font-family: 'DINProRegular';
+
+	margin-bottom: 70px;
+
+	display: block;
+
+}
+
+
+
+.dog-park-top{	
+
+	position: relative;
+
+}
+
+
+
+.dog-park-top img{}
+
+.dog-park-top a{
+
+	position: absolute;
+
+    top: 43%;
+
+    left: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    font-family: 'DINProLight';
+
+    color: #fff;
+
+    font-size: 18px;
+
+    border: 2px solid #fff;
+
+    padding: 10px;
+
+    margin: 0 auto;
+
+    width: 230px;
+
+}
+
+
+
+.dog-park-bottom{
+
+	position: relative;
+
+    background: #fff;
+
+    padding: 25px 20px 5px 20px;
+
+}
+
+
+
+.dpb-arrow{
+
+	position: absolute;
+
+    width: 48px;
+
+    height: 48px;
+
+    background: #9D3793;
+
+    border-radius: 100%;
+
+    text-align: center;
+
+	right: 20px;
+
+	top: -25px;
+
+}
+
+
+
+.dog-park-bottom img{
+
+	margin-top: 17px;
+
+}
+
+
+
+.dog-park-bottom h3{
+
+	color: #3498db;
+
+	font-size: 18px;
+
+	font-family: 'DINProLight';
+
+	margin-top: 0;
+
+	text-transform: capitalize;
+
+}
+
+
+
+.dog-park-bottom p{
+
+	line-height: 24px;
+
+}
+
+
+
+.dog-park-three{
+
+	position: relative;
+
+	background: #fff;
+
+	padding: 20px;
+
+	min-height: 463px;
+
+}
+
+
+
+.dpt-arrow{	
+
+	position: absolute;
+
+    width: 48px;
+
+    height: 48px;
+
+    background: #9D3793;
+
+    border-radius: 100%;
+
+    text-align: center;
+
+	right: 20px;
+
+}
+
+
+
+.dpt-arrow img{
+
+	margin-top: 20px;
+
+}
+
+
+
+.dog-park-three h3{
+
+	color: #9d3493;
+
+	font-size: 18px;
+
+	font-family: 'DINProRegular';
+
+	margin-top: 0;
+
+	text-transform: capitalize;
+
+	line-height: 24px;
+
+	padding-right: 60px;
+
+}
+
+
+
+.dog-park-three p{
+
+	line-height: 24px;
+
+}
+
+
+
+.dog-park-three a{
+
+	background: #9D3793;
+
+    width: 165px;
+
+    display: block;
+
+    padding: 13px;
+
+    text-align: center;
+
+    color: #fff;
+
+    margin: 20px auto;
+
+}
+
+
+
+.dog-park-three a:hover{
+
+	background: #9D3793;
+
+}
+
+
+
+.dog-park-three a:hover{
+
+	background: #88137d;
+
+}
+
+
+
+/* 4. mind-protection
+
+--------------------------------------------
+
+*/
+
+
+
+.mind-protection{
+
+	background: url(../images/mind-protection-bg.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+}
+
+
+
+.mind-protection .section-heading h2{
+
+	color: #fff;
+
+}
+
+
+
+.mind-protection .section-heading span{
+
+	color: #f0f0f0;
+
+}
+
+
+
+.mind-protection .section-heading:before{
+
+	background: #fff;
+
+}
+
+
+
+.single-protection{
+
+	border: 1px solid #C146B5;
+
+	padding: 3px 4px;
+
+	position: relative;
+
+	margin-top: 50px;
+
+}
+
+
+
+.single-pro-inner{
+
+	background: rgba(157, 55, 147, 0.55);
+
+	min-height: 260px;
+
+}
+
+
+
+.single-pro-inner img{
+
+	position: absolute;
+
+    top: -50px;
+
+    margin: 0 auto;
+
+    left: 0;
+
+    right: 0;
+
+}
+
+
+
+.single-pro-inner h3{
+
+	 font-family: 'DINProBold';
+
+    color: #f0f0f0;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding-top: 55px;
+
+    padding-bottom: 30px;
+
+}
+
+.single-pro-inner ul{
+
+	padding: 0 20px;
+
+}
+
+
+
+.single-pro-inner ul li{
+
+	color: #fff;
+
+    font-weight: 100;
+
+    line-height: 24px;
+
+    background: url(../images/mark.png) no-repeat scroll 0px 4px;
+
+    padding-left: 25px;
+
+}
+
+
+
+.view-all-image a{
+
+	color: #fff;
+
+    text-align: center;
+
+    display: block;
+
+    margin-top: 50px;
+
+}
+
+
+
+/* 5. lets-talk
+
+--------------------------------------------
+
+*/
+
+
+
+.lets-talk{
+
+	background: #9D3793;
+
+}
+
+
+
+.talk-content{}
+
+
+
+.talk-content h2{
+
+	font-size: 36px;
+
+	font-family: 'DINProBold';
+
+	color: #fff;
+
+	margin-top: 70px;
+
+}
+
+
+
+.talk-content p{
+
+	color: #f0f0f0;
+
+	font-weight: 100;
+
+	line-height: 24px;
+
+}
+
+
+
+.inquiries a{
+
+	font-weight: 700;
+
+    color: #000;
+
+    font-size: 24px;
+
+    display: block;
+
+    background: #87AB40;
+
+    text-align: center;
+
+    padding: 16px 0;
+
+    box-shadow: 3px 3px 6px #53780b;
+
+    margin-top: 120px;
+
+}
+
+
+
+.inquiries a:hover{
+
+    background: #53780b;
+
+}
+
+
+
+/* 6. testimonials
+
+--------------------------------------------
+
+*/
+
+
+
+.section-heading-second{
+
+	position: relative;
+
+	margin-bottom: 85px;
+
+}
+
+
+
+.section-heading-second h2{
+
+	font-size: 36px;
+
+    color: #9d3493;
+
+    font-family: 'DINProRegular';
+
+    margin-bottom: 3px;
+
+}
+
+
+
+.section-heading-second h2 span{
+
+	font-family: 'DINProBold';
+
+}
+
+
+
+.section-heading-second:before{
+
+	content: "";
+
+    position: absolute;
+
+    width: 118px;
+
+    height: 4px;
+
+    background: #9D3793;
+
+    bottom: -20px;
+
+    left: 0;
+
+    right: 0;
+
+    margin: 0 auto;
+
+}
+
+
+
+/*testimonial*/
+
+
+
+.carousel-indicators{
+
+	position: static;
+
+    margin: 0 auto;
+
+    margin-top: 50px;
+
+}
+
+
+
+.carousel-indicators li{
+
+	border-color: #C3C3C3;
+
+	background: #C3C3C3;
+
+	width: 13px;
+
+	height: 13px;
+
+}
+
+
+
+.carousel-indicators li.active{
+
+	border-color: #9D3793;
+
+	width: 15px;
+
+	height: 15px;
+
+}
+
+
+
+.client-image span{
+
+	color: #3498db;
+
+	text-align: center;
+
+	display: block;
+
+	margin-top: 10px;
+
+}
+
+
+
+blockquote {
+
+	padding: 0 20px;
+
+	border-color: #9D3793;
+
+	position: relative;
+
+}
+
+
+
+blockquote:before {
+
+	content: "";
+
+    position: absolute;
+
+    width: 0;
+
+    height: 0;
+
+    border-top: 10px solid transparent;
+
+    border-right: 12px solid #9D3793;
+
+    border-bottom: 10px solid transparent;
+
+    left: -16px;
+
+    top: 15px;
+
+}
+
+
+
+blockquote p{
+
+	font-size: 14px;
+
+    line-height: 24px;
+
+}
+
+
+
+/* 7. different
+
+--------------------------------------------
+
+*/
+
+
+
+.woofs-single{}
+
+
+
+.woofs-single img{
+
+	display: block;
+
+    margin: 0 auto;
+
+}
+
+
+
+.woofs-single h3{
+
+	text-align: center;
+
+    margin-bottom: 25px;
+
+    font-family: 'DINProRegular';
+
+    color: #9d3493;
+
+}
+
+
+
+.woofs-single p{
+
+	line-height: 24px;
+
+}
+
+
+
+/* 8. contact
+
+--------------------------------------------
+
+*/
+
+
+
+.contact{
+
+	background: url(../images/contact-bg.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+}
+
+
+
+.contact-heading h2{
+
+	font-family: 'DINProBold';
+
+    font-size: 36px;
+
+    color: #fff;
+
+    text-align: center;
+
+    margin-top: 40px;
+
+    margin-bottom: 50px;
+
+}
+
+
+.daycare-contact-container {
+	background-color: #9BA1A3;
+
+}
+
+
+.daycare-contact-left {
+	margin: 15px;
+	
+}
+
+.daycare-contact-left .form-horizontal .control-label {
+	text-align: left;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+}
+
+
+.daycare-contact-left .form-group input, .contact-right .form-group textarea{
+
+	background: transparent;
+
+    border: 0px solid #fff;
+
+    border-bottom: 1px solid #fff;
+
+    width: 100%;
+
+    color: #6D7375;
+
+    padding-bottom: 5px;
+
+}
+
+
+.daycare-contact-left .form-group textarea{
+
+    border: 1px solid #fff;
+
+    padding: 5px 10px;
+
+    resize: none;
+
+}
+
+.daycare-contact-left .con-btn, .subcribe .con-btn{
+
+	color: #000;
+
+    background: #F0DA7F;
+
+    border: none;
+
+    padding: 5px 11px;
+
+    float: right;
+
+}
+
+
+
+.daycare-contact-left .con-btn:hover, .subcribe .con-btn:hover{
+
+    background: #e4c233;
+
+}
+
+
+
+.contact-left p{
+
+	color: #fff;
+
+	line-height: 24px;
+
+	font-weight: 100;
+
+}
+
+
+
+.contact-right .form-horizontal .control-label{
+
+	text-align: left;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+}
+
+
+
+.contact-right .form-group input, .contact-right .form-group textarea{
+
+	background: transparent;
+
+    border: 0px solid #fff;
+
+    border-bottom: 1px solid #fff;
+
+    width: 100%;
+
+    color: #fff;
+
+    padding-bottom: 5px;
+
+}
+
+
+
+.contact-right .form-group textarea{
+
+    border: 1px solid #fff;
+
+    padding: 5px 10px;
+
+    resize: none;
+
+}
+
+
+
+.contact-right .con-btn, .subcribe .con-btn{
+
+	color: #000;
+
+    background: #F0DA7F;
+
+    border: none;
+
+    padding: 5px 11px;
+
+    float: right;
+
+}
+
+
+
+.contact-right .con-btn:hover, .subcribe .con-btn:hover{
+
+    background: #e4c233;
+
+}
+
+
+
+/* 9. footer
+
+--------------------------------------------
+
+*/
+
+
+
+footer{
+
+	background: #782770;
+
+	padding-top: 10px;
+
+	font-weight: 100;
+
+}
+
+
+
+.single-footer h4{
+
+	font-size: 14px;
+
+	color: #fff;
+
+	font-weight: 300;
+
+}
+
+
+
+.single-footer p{
+
+	color: #fff;
+
+	line-height: 24px;
+
+}
+
+
+
+.footer-service ul{
+
+	padding: 0;
+
+}
+
+
+
+.footer-service ul li{
+
+	float: left;
+
+	width: 50%;
+
+}
+
+
+
+.footer-service ul li a{
+
+	color: #f0d97f;
+
+}
+
+
+
+.footer-service ul li a:hover{
+
+	color: #dbb520;
+
+}
+
+
+
+.social-icons{}
+
+
+
+.social-icons ul{
+
+	padding-left: 0;
+
+}
+
+
+
+.social-icons ul li{}
+
+
+
+.social-icons ul li a{
+
+	color: #f0d97f;
+
+}
+
+
+
+.social-icons ul li a:hover{
+
+	color: #dbb520;
+
+}
+
+
+
+.subcribe{}
+
+.subcribe input{
+
+	background: #692462;
+
+    border: none;
+
+    padding: 5px;
+
+    width: 100%;
+
+    color: #fff;
+
+}
+
+
+
+.subcribe button{
+
+	font-weight: 300;
+
+	margin-top: 15px;
+
+}
+
+
+
+.copyright-wrap{
+
+	background: #672061;
+
+	padding: 7px 0;
+
+	border-bottom: 1px solid #fff;
+
+	margin-top: 12px;
+
+}
+
+
+
+.copyright-wrap span{
+
+	color: #fff;
+
+}
+
+
+
+.copyright-wrap a{
+
+	color: #f0d97f;
+
+}
+
+
+
+.copyright-wrap a:hover{
+
+	color: #dbb520;
+
+}
+
+
+
+/* 10. about.html
+
+--------------------------------------------
+
+*/
+
+
+
+.page-banner-daycare{
+
+	background: url(../images/daycare-out.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+}
+
+
+
+.page-banner-heading h2{
+
+	margin-top: 340px;
+
+    font-family: 'DINProMedium';
+
+    color: #fff;
+
+    font-size: 30px;
+
+    background: rgba(154, 58, 138, 0.9);
+
+    width: 360px;
+
+    text-align: center;
+
+    padding: 21px 0px;
+
+    margin-bottom: 0;
+
+}
+
+
+
+.breadcrumbs{
+
+	background: #973788;
+
+	padding: 12px 0;
+
+}
+
+
+
+.breadcrumbs span{
+
+	color: #fff;
+
+}
+
+
+
+.about-content{
+
+	background: #F0F0F0;
+
+}
+
+
+
+.about-right-para p{
+
+	line-height: 24px;
+
+	color: #626262;
+
+	margin-bottom: 25px;
+
+}
+
+
+
+.about-right-para p:last-child{
+
+	margin-bottom: 0px;
+
+}
+
+
+
+.service-area-info{
+
+	background: #fff;
+
+	padding: 20px;
+
+	min-height: 161px;
+
+}
+
+
+
+.service-area-info h2{
+
+	color: #9d3493;
+
+    font-weight: 300;
+
+    margin-top: 0;
+
+}
+
+
+
+.service-area-info p{
+
+	color: #626262;
+
+}
+
+
+
+.service-area-info a{
+
+	color: #3498db;
+
+}
+
+
+
+.service-area-info a:hover{
+
+	color: #0274c0;
+
+}
+
+
+
+.call-us-about {
+
+	background: #9D3793;
+
+	padding: 20px;
+
+}
+
+
+
+.call-us-about h2{
+
+	color: #fff;
+
+    font-family: 'DINProMedium';
+
+    margin-top: 0;
+
+}
+
+
+
+.call-us-about p{
+
+	color: #fff;
+
+	font-family: 'DINProMedium';
+
+	font-size: 18px;
+
+	float: left;
+
+    margin-right: 15px;
+
+    margin-top: 8px;
+
+}
+
+
+
+.stay-connected ul li a{
+
+	color: #fff;
+
+	font-size: 32px;
+
+}
+
+
+
+/* 11. dog-train.html
+
+--------------------------------------------
+
+*/
+
+
+
+.page-banner-dog-train{
+
+	background: url(../images/dog-train.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+}
+
+
+
+.woofs-uni {
+
+	padding: 20px;
+
+	background: #EBEBEB;
+
+}
+
+
+
+.woofs-uni-p{
+
+	line-height: 24px;
+
+}
+
+
+
+.dog-train{
+
+	background: #F0F0F0;
+
+}
+
+
+
+.sr-one{
+
+	background: #9D3793;
+
+}
+
+
+
+.sr-one h3{	
+
+    background: #A24199;
+
+}
+
+
+
+.sr-two{
+
+	background: #3798DB;
+
+}
+
+
+
+.sr-two h3{
+
+	background: #419DDD;
+
+}
+
+
+
+.sr-three{
+
+	background: #7F9D41;
+
+}
+
+
+
+.sr-three h3{
+
+	background: #86A24A;
+
+}
+
+
+
+.reg-padding{
+
+	padding: 20px;
+
+}
+
+
+
+.single-register{
+
+	color: #fff;
+
+    margin-bottom: 30px;
+
+    overflow: hidden;
+
+    padding-bottom: 30px
+
+}
+
+
+
+.single-register h3{
+
+    font-weight: 700;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 18px 0px;
+
+}
+
+
+
+.reg-padding span{
+
+	font-weight: 700;
+
+    text-align: center;
+
+    display: block;
+
+    font-size: 72px;
+
+}
+
+
+
+.reg-padding p{
+
+	
+
+}
+
+
+
+.reg-padding a{
+
+	display: block;
+
+    font-weight: 700;
+
+    color: #fff;
+
+    margin-top: 10px;
+
+    width: 250px;
+
+    float: right;
+
+}
+
+
+
+.reg-padding > a{
+
+	font-size: 24px;
+
+    text-align: center;
+
+    border: 1px solid #fff;
+
+    padding: 9px 0;
+
+}
+
+
+
+/* 12. gallery.html
+
+--------------------------------------------
+
+*/
+
+
+
+.page-banner-gallery{
+
+	background: url(../images/gallery-bg.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+	position: relative;
+
+}
+
+
+
+.page-banner-gallery h3{
+
+	font-family: 'DINProMedium';
+
+	font-size: 48px;
+
+	color: #fff;
+
+	position: absolute;
+
+    top: 30%;
+
+    left: 0;
+
+    right: 0;
+
+    text-align: center;
+
+}
+
+
+
+.gallery-change ul li a{
+
+	font-family: 'DINProMedium';
+
+	text-transform: uppercase;
+
+	border-radius: 0;
+
+    background: #3798DB;
+
+    border: none;
+
+    padding: 8px 44px;
+
+}
+
+
+
+.gallery-change{
+
+	margin-bottom: 5px;
+
+}
+
+
+
+.gallery-change ul li:last-child{
+
+	padding-right: 0;
+
+}
+
+
+
+.gallery-con{
+
+	background: #F0F0F0;
+
+}
+
+
+
+.gallery{
+
+	padding: 47px;
+
+    border: 1px solid #ddd;
+
+    overflow: hidden;
+
+}
+
+
+
+.gallery ul{
+
+	padding: 0;
+
+}
+
+
+
+.gallery ul li{
+
+	float: left;
+
+    padding: 5px;
+
+    background: #fff;
+
+    border: 1px solid #D5D5D5;
+
+    margin-left: 5px;
+
+    margin-top: 5px;
+
+    position: relative;
+
+}
+
+
+
+.gallery ul li a i{
+
+	display: none;
+
+}
+
+
+
+.gallery ul li a:hover i{
+
+	position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    color: #fff;
+
+    font-size: 40px;
+
+    background: rgba(151, 55, 136, 0.81);
+
+    display: block;
+
+    height: 100%;
+
+    padding-top: 40%;
+
+    display: block;
+
+}
+
+
+
+.gallery ul li a img{}
+
+
+
+/* 13. contact.html
+
+--------------------------------------------
+
+*/
+
+
+
+.page-banner-contact{
+
+	background: url(../images/inquire.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+	position: relative;
+
+}
+
+
+
+.contact-page{	
+
+	background: #F0F0F0;
+
+}
+
+.home-flash {
+	background: rgba(154, 58, 138, 0.4);
+	color: #fff;
+	line-height: 2.5em;
+	font-size: 1.10em;
+	margin-top: 3em;
+	overflow|: hidden;
+}
+
+.contact-page-form{
+
+	overflow: hidden;
+
+}
+
+
+
+.contact-page-form h2{
+
+	font-family: 'DINProMedium';
+
+	font-size: 24px;
+
+	color: #333333;
+
+	margin-top: 0;
+
+	margin-bottom: 40px;
+
+}
+
+
+
+.contact-page-form .form-horizontal .control-label{
+
+	font-weight: 300;
+
+	color: #333;
+
+    text-align: left;
+
+    text-transform: capitalize;
+
+    padding-top: 10px;
+
+}
+
+
+
+.contact-page-form .form-horizontal input, .contact-page-form .form-horizontal textarea{
+
+	border: 1px solid #D5D5D5;
+
+    padding: 9px;
+
+    width: 100%;
+
+    color: #000;
+
+    resize: none;
+
+}
+
+
+
+.contact-page-form .form-horizontal input:focus, .contact-page-form .form-horizontal textarea:focus{
+
+	border: 1px solid #888888;
+
+}
+
+
+
+.contact-page-form .form-horizontal .form-group{
+
+	border-bottom: 1px solid #D5D5D5;
+
+    padding-bottom: 15px;
+
+}
+
+
+
+.contact-page-form .form-horizontal .no-border{
+
+	border: 0;
+
+}
+
+
+
+.contact-page-form .form-horizontal button{
+
+	border: 0;
+
+    border-radius: 0;
+
+    background: #3798DB;
+
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    padding: 18px 65px;
+
+}
+
+
+
+.contact-page-form .form-horizontal button:hover{
+
+    background: #286090;
+
+}
+
+
+
+.contact-f-right-image{
+
+	border-left: 1px solid #D5D5D5;
+
+}
+
+
+
+.contact-f-right-image img{
+
+	margin-bottom: 30px;
+
+}
+
+
+
+/* 14. service-areas.html
+
+--------------------------------------------
+
+*/
+
+
+
+.page-banner-service-areas{
+	background: url(../images/map.png) no-repeat top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+
+
+
+.page-banner-service-areas h2{
+
+    font-family: 'DINProMedium';
+
+    color: #fff;
+
+    font-size: 30px;
+
+    background: rgba(154, 58, 138, 0.9);
+
+    width: 360px;
+
+    text-align: center;
+
+    padding: 21px 0px;
+
+    margin-bottom: 0;
+
+    bottom: 0;
+
+}
+
+
+
+.page-banner-service-areas img{
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 54px;
+
+    right: 0;
+
+    margin: 0 auto;
+
+}
+
+
+
+.service-areas{
+
+	background: #F0F0F0;
+
+}
+
+
+
+.services-description p.click-hide{
+
+	text-align: center;
+
+    background: #fff;
+
+    padding: 10px 0;
+
+    margin-bottom: 40px;
+
+    position: relative;
+
+}
+
+
+
+.services-description p.click-hide i{
+
+	text-align: center;
+
+    padding: 10px 0;
+
+    margin-bottom: 40px;
+
+    position: absolute;
+
+    top: -8px;
+
+    right: 3px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+}
+
+
+
+.services-description p{
+
+	color: #626262;
+
+}
+
+
+
+.services-description a{
+
+	font-weight: 300;
+
+    background: #3798DB;
+
+    border: 0;
+
+    border-radius: 0;
+
+    padding: 8px 24px;
+
+    margin-top: 30px;
+
+}
+
+
+
+.new-con-white{background: #fff;}
+
+
+
+.c-menu--push-right .c-menu__close{
+
+	font-size: 25px;
+
+    width: 50px;
+
+    padding: 10px 0;
+
+    line-height: 20px;
+
+    background: #973788;
+
+}
+
+
+
+.c-menu{
+
+	background: #87AB40;
+
+}
+
+
+
+.c-menu--push-right .c-menu__item{
+
+	border-top: 1px solid #9cc54a;
+
+	border-bottom: 1px solid #55711e; 
+
+}
+
+
+
+ul.c-menu__items li:last-child{
+
+	padding: 12px 24px;
+
+	color: #fff;
+
+	font-weight: 700;
+
+}
+
+
+
+.thank-you h2{
+
+	color: #000;
+
+    padding: 70px 0;
+
+}

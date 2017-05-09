@@ -11,10 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get( '/', function () {
+    return view( 'index' );
 });
 
-Route::get('about', function() {
-	return view('about');
-})
+Route::get( 'home', function() {
+	return view( 'index' );
+});
+
+Route::get( 'about', function() {
+	return view( 'about' );
+});
+
+Route::get( 'inquire', function() {
+	return view( 'inquire' );
+});
+
+Route::get( 'apply', function() {
+	return view( 'apply' );
+});
+
+Route::get( 'service-areas', function() {
+	return view( 'service-areas' );
+});

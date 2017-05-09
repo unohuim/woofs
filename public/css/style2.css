@@ -1,0 +1,23 @@
+
+
+.navbar-toggle{background: #9D3793; margin: 10px auto; float: none; display: block;}
+.navbar-toggle .icon-bar{background: #fff;}
+nav{float:none;}
+.nav>li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #fff;
+}
+.nav>li>a, .nav>li:last-child{
+	color: #000;
+	text-shadow: 0px 0px 0px #000;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav>li>a.active{
+	color: #fff;
+	text-shadow: 0px 0px 0px #fff;
+}
+
+.navbar-toggle{
+	float: right;
+}
+
+.nav>li{text-align: center;}
