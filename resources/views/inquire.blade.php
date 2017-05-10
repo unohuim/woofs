@@ -19,13 +19,15 @@
 @section ( 'page_paragraph' )
     
     <div class="contact-page-form">
-        <h2>Please tell us about you and your pup </h2>
+        <!-- <h2>Please tell us about you and your pup </h2> -->
+
+        <h3>Our email form is currently down, please call us instead.  If you have to leave a message, we'll ge back to you right away.  We're terribly sorry for this inconvenience.</h3>
 
         <form class="form-horizontal" action="{{ url( 'inquire_thankyou' ) }}" method="post">
 
             <fieldset>
                 {{ csrf_field() }}
-                
+
                 <input type="hidden" name="page_source" value="contact" />
 
                 <!-- Text input-->
@@ -78,8 +80,9 @@
 
                 <!-- captcha -->
                 <div class="form-group no-border">
-                    <div class="col-sm-8 col-sm-push-3">                     
-                        <button type="submit" name="submit" class="btn btn-primary">Send message</button>
+                    <div class="col-sm-8 col-sm-push-3">
+
+                        <!-- <button type="submit" name="submit" class="btn btn-primary">Send message</button> -->
                     </div>
                 </div>
 
