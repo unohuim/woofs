@@ -1514,6 +1514,16 @@ footer{
 */
 
 
+.page-banner-thankyou{
+
+	background: url(../images/mario_luigi.jpg) no-repeat top center;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+}
+
 
 .page-banner-daycare{
 

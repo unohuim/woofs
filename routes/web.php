@@ -35,6 +35,6 @@ Route::get( 'service-areas', function() {
 	return view( 'service-areas' );
 });
 
-Route::get( 'inquire-thankyou', function() {
-	return view( 'inquire-thankyou' );
+Route::post( 'inquire_thankyou', function() {
+	return view( 'inquire_thankyou' );
 });

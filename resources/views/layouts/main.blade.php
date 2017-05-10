@@ -73,6 +73,8 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/menu.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/scripts2.js"></script>
+        <script src="js/scripts3.js"></script>
 
         <script>
             $(document).ready(function () {

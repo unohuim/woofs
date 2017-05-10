@@ -21,9 +21,11 @@
     <div class="contact-page-form">
         <h2>Please tell us about you and your pup </h2>
 
-        <form class="form-horizontal" action="inquire-thankyou" method="post">
-            <fieldset>
+        <form class="form-horizontal" action="{{ url( 'inquire_thankyou' ) }}" method="post">
 
+            <fieldset>
+                {{ csrf_field() }}
+                
                 <input type="hidden" name="page_source" value="contact" />
 
                 <!-- Text input-->
