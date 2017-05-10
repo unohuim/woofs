@@ -34,3 +34,7 @@ Route::get( 'apply', function() {
 Route::get( 'service-areas', function() {
 	return view( 'service-areas' );
 });
+
+Route::get( 'inquire-thankyou', function() {
+	return view( 'inquire-thankyou' );
+});

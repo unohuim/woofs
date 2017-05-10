@@ -21,7 +21,7 @@
     <div class="contact-page-form">
         <h2>Please tell us about you and your pup </h2>
 
-        <form class="form-horizontal" action="thank-you-contact.php" method="post">
+        <form class="form-horizontal" action="inquire-thankyou" method="post">
             <fieldset>
 
                 <input type="hidden" name="page_source" value="contact" />
