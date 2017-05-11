@@ -36,6 +36,8 @@ class InquiryController extends Controller
           
         $user = new User( [ 'name' => 'Robert Colquhoun', 'email' => 'robert@woofs.ca' ] );
 
+        dd( 'here' );
+        
         \Mail::to( $user )->send( new InquiryMail( $inquiry ) );
 
     	return view( 'inquiry.inquire_thankyou' );
