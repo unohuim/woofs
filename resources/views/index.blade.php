@@ -179,6 +179,8 @@
                         <form class="form-horizontal" action="{{ url( 'inquire_thankyou' ) }}" method="post">
                         <fieldset>
 
+                            {{ csrf_field() }}
+                            
                             <input type="hidden" name="page_source" value="home" />
 
                             <!-- Text input-->
