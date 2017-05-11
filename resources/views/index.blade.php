@@ -176,7 +176,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="contact-right">
-                        <form class="form-horizontal" action="/thank-you/" method="post">
+                        <form class="form-horizontal" action="{{ url( 'inquire_thankyou' ) }}" method="post">
                         <fieldset>
 
                             <input type="hidden" name="page_source" value="home" />
