@@ -18,7 +18,7 @@ class InquiryController extends Controller
 
     public function inquireThankyou()
     {
-    	if(! isset( request( 'g-recaptcha-response' ) ) ) return Redirect::back();
+    	if( empty( request( 'g-recaptcha-response' ) ) ) return Redirect::back();
 
     	
 
