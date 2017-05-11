@@ -25,7 +25,7 @@ Route::get( 'about', function() {
 
 Route::get( 'daycare', function() {
 	return view( 'daycare' );
-})
+});
 
 Route::get( 'apply', function() {
 	return view( 'apply' );

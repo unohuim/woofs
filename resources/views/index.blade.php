@@ -43,7 +43,7 @@
                                 <li> pick-up & drop-off included </li>
                                 
                                 <div class="view-all-image pull-right">
-                                    <a href="daycare.php">
+                                    <a href="daycare">
                                         learn more..
                                         <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
                                     </a>
