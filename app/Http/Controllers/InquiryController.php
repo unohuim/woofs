@@ -18,7 +18,9 @@ class InquiryController extends Controller
 
     public function inquireThankyou()
     {
-        if(! isset( request( 'g-recaptcha-response' ) ) ) return Redirect::back();
+    	echo request( 'g-recaptcha-response' );
+    	
+        //if(! isset( request( 'g-recaptcha-response' ) ) ) return Redirect::back();
 
     	$inquiry = new Inquiry;
         $inquiry->subject = "Doggie Inquiry";
