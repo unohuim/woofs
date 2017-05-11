@@ -36,8 +36,6 @@ class InquiryController extends Controller
         $inquiry->phone = request( 'phone' );
         $inquiry->message = request( 'message' );
           
-        dd( $inquiry->petname );
-
         $user = new User( [ 'name' => 'Robert Colquhoun', 'email' => 'robert@woofs.ca' ] );
 
 
