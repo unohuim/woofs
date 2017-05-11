@@ -18,8 +18,8 @@ class InquiryController extends Controller
 
     public function inquireThankyou()
     {
-    	echo request( 'g-recaptcha-response' );
-    	
+    	//echo request( 'g-recaptcha-response' );
+
         //if(! isset( request( 'g-recaptcha-response' ) ) ) return Redirect::back();
 
     	$inquiry = new Inquiry;
@@ -36,6 +36,8 @@ class InquiryController extends Controller
         $inquiry->phone = request( 'phone' );
         $inquiry->message = request( 'message' );
           
+        dd( $inquiry->petname );
+        
         $user = new User( [ 'name' => 'Robert Colquhoun', 'email' => 'robert@woofs.ca' ] );
 
 
