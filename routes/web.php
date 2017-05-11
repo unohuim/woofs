@@ -23,10 +23,6 @@ Route::get( 'about', function() {
 	return view( 'about' );
 });
 
-Route::get( 'inquire', function() {
-	return view( 'inquire' );
-});
-
 Route::get( 'apply', function() {
 	return view( 'apply' );
 });
@@ -35,6 +31,15 @@ Route::get( 'service-areas', function() {
 	return view( 'service-areas' );
 });
 
-Route::post( 'inquire_thankyou', function() {
-	return view( 'inquire_thankyou' );
-});
+
+
+Route::get('inquire', [
+	'as' => 'inquire',
+	'uses' => 'InquiryController@inquire'
+]);
+
+
+Route::post( 'inquire_thankyou', [
+	'as' => 'inquire_thankyou',
+	'uses' => 'InquiryController@inquireThankyou'
+]);
