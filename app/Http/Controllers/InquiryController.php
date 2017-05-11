@@ -39,7 +39,7 @@ class InquiryController extends Controller
         $user = new User( [ 'name' => 'Robert Colquhoun', 'email' => 'robert@woofs.ca' ] );
 
 
-        \Mail::to( $user )->send( new InquiryMail( $inquiry ) );
+        \Mail::to( $user )->subject( 'Doggie Inquiry' )->send( new InquiryMail( $inquiry ) );
 
     	return view( 'inquiry.inquire_thankyou' );
     }
