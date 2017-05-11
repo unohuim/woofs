@@ -23,6 +23,10 @@ Route::get( 'about', function() {
 	return view( 'about' );
 });
 
+Route::get( 'daycare', function() {
+	return view( 'daycare' );
+})
+
 Route::get( 'apply', function() {
 	return view( 'apply' );
 });
