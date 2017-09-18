@@ -35,7 +35,7 @@
                                 <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="blog">Blog</a></li>
                                 <li><a class="active" href="inquire">Inquire</a></li>
-                                <li>Call us 647-549-9663 (WOOF)</li>
+                                <li>Call us <a href="tel:647-549-9663">647-549-9663 (WOOF)</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </nav>

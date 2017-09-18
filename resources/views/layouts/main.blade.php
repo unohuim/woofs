@@ -51,7 +51,7 @@
 		    <li class="c-menu__item"><a href="gallery" class="c-menu__link">Gallery</a></li>
 		    <li class="c-menu__item"><a href="blog" class="c-menu__link">Blog</a></li>
 		    <li class="c-menu__item"><a href="inquire" class="c-menu__link">Inquire</a></li>
-		    <li class="c-menu__item">Call us 647-549-9663 (WOOF)</li>
+		    <li class="c-menu__item">Call us <a href="tel:647-549-9663">647-549-9663 (WOOF)</a></li>
 		  </ul>
 		</nav><!-- /c-menu push-right -->
 
