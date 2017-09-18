@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="call-us-about">
-                        <h2>Call us <br>416-889-7265</h2>
+                        <h2>Call us <br><a href="tel:647-549-9663">647-549-9663 (WOOF)</a></h2>
                         <div class="stay-connected">
                             <p>Stay connected: </p>
                             <ul class="list-inline">
