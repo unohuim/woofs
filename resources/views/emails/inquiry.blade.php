@@ -9,7 +9,7 @@
 
 <body>
 
-    <p>Hey big guy... looks like your hard work is paying off yet again</p>
+    <p>Hey hey!  Looks like our hard work is paying off yet again</p>
 
     
     <h3>Inquiry Details</h3>

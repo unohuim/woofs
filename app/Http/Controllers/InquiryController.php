@@ -36,7 +36,7 @@ class InquiryController extends Controller
         $inquiry->phone = request( 'phone' );
         $inquiry->message = request( 'message' );
           
-        $user = new User( [ 'name' => 'Robert Colquhoun', 'email' => 'robert@woofs.ca' ] );
+        $user = new User( [ 'name' => 'Woofs Leads', 'email' => 'inquiry@woofs.ca' ] );
 
 
         \Mail::to( $user )->send( new InquiryMail( $inquiry ) );
