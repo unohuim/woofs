@@ -20,7 +20,7 @@
     <div class="about-right-para">
         <h4>Dog Experiences Come First</h4>
         <p>The first thing clients ask when they walk in is “why aren’t the dogs barking?”</p>
-        <p>Woofs Upon a Walk is a Toronto Dog Services Company who welcomes innovation, and strives to evolve into being the best dog experience possible.</p>
+        <p>Woofs Upon a Walk is a Toronto dog services company who welcomes innovation, and strives to evolve into being the best dog experience possible.</p>
         <p>You can expect a few differences with our daycare service than what you’re probably used to.  The biggest being that we don’t let clients directly drop-off their dogs.  Instead, we do the pick-ups and drop-offs.  Clients are welcome to come visit and check out our facility, but before any dog steps foot into our facility they are taken-out for a group run with a Professional Dog Walker first.  This ensures a few things.  Firstly, all the dogs are fully exercised.  As we know, a well behaved pup is a tired pup.  The morning run improves the overall behavior.  It also reduces stress, mess, and the overall noise levels.  The environment improves because of that morning run.</p>
 
         <h4>Balance</h4>
