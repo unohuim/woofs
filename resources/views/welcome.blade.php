@@ -22,12 +22,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="hidden-xs banner-title text-center">
-                            <h2>HAPPY DOGS PLAY HERE</h2>                                
+                            <h2>FITNESS & ENRICHMENT FOR CANINES</h2>                                
                             <span>love‧ excellence‧ fun</span>                              
                         </div>
                         
                         <div class="visible-xs banner-title text-center">
-                            <h3>HAPPY DOGS PLAY HERE</h3>
+                            <h3>FITNESS & ENRICHMENT FOR CANINES</h3>
                             <span>love‧ excellence‧ fun</span> 
                         </div>
                     </div>
