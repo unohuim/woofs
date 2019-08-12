@@ -16,13 +16,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hidden-xs banner-title text-center">
-                        <h2>CANINE ENRICHMENT</h2>                                
+                        <h1>CANINE ENRICHMENT</h1>                                
                         <h3>physical ‧ mental ‧ social</h3>                              
                     </div>
                     
                     <div class="visible-xs banner-title text-center">
-                        <h2>CANINE ENRICHMENT</h2>
-                        <h3>physical ‧ mental ‧ social</h3> 
+                        <h1>CANINE ENRICHMENT</h1>
+                        <h4>physical ‧ mental ‧ social</h4> 
                     </div>
                 </div>
             </div>
