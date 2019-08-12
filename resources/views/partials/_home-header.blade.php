@@ -21,8 +21,8 @@
                     </div>
                     
                     <div class="visible-xs banner-title text-center">
-                        <h3>CANINE ENRICHMENT</h3>
-                        <h4>physical ‧ mental ‧ social</h4> 
+                        <h2>CANINE ENRICHMENT</h2>
+                        <h3>physical ‧ mental ‧ social</h3> 
                     </div>
                 </div>
             </div>
