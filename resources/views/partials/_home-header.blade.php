@@ -16,13 +16,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hidden-xs banner-title text-center">
-                        <h1>FITNESS & ENRICHMENT</h1>                                
-                        <h7>physical ‧ mental ‧ social</h7>                              
+                        <h2>FITNESS & ENRICHMENT</h2>                                
+                        <h5>physical ‧ mental ‧ social</h5>                              
                     </div>
                     
                     <div class="visible-xs banner-title text-center">
                         <h3>FITNESS & ENRICHMENT</h3>
-                        <h7>physical ‧ mental ‧ social</h7> 
+                        <h5>physical ‧ mental ‧ social</h5> 
                     </div>
                 </div>
             </div>
