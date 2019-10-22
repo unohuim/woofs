@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <div class="single-protection">
                         <div class="single-pro-inner">
                             <h3>DOG WALKING</h3>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <div class="single-protection">
                         <div class="single-pro-inner">
                             <h3>DAYCARE</h3>
@@ -96,25 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="single-protection">
-                        <div class="single-pro-inner">
-                            <h3>WOOFS UNIVERSITY</h3>
-                            <ul>
-                                <li> obedience 101 </li>
-                                <li> obedience 201 </li>
-                                <li> canine good neighbour 101 </li>
-                                <div class="view-all-image pull-right">
-                                    <a href="dog-training.html">
-                                        learn more.. 
-                                        <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
-                                    </a>
-                                </div>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             
         </div>
