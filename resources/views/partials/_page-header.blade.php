@@ -31,6 +31,7 @@
                                 <li><a  href="home">Home</a></li>
                                 <li><a href="about">About</a></li>
                                 <li><a href="service-areas">Service Areas</a></li>
+                                <li><a href="daycare">Daycare</a></li>
                                 <li><a class="active" href="inquire">Inquire</a></li>
                                 <li>Call us <a href="tel:647-549-9663">647-549-9663 (WOOF)</a></li>
                             </ul>

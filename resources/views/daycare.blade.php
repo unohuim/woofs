@@ -30,6 +30,9 @@
         <p>Physical is still very important.  We believe that a daycare service should not rely 100% on its facility for physical exercise.  Only outside in big spaces can dogs run full-out and be free.  Outside is a dog’s canvas, where they fully express themselves with wicked dance moves.  They prance, chase, wrestle and tackle.  Nothing can replace the physical experience of a well-managed group run at the dog park.</p>
         <p>Our core service is Professional Dog Walking.  We’ve been walking dogs (moreso running) since 2010.  We’re experts at physically tiring-out dogs and providing mental stimulation in the dog parks safely.  We’re excellent at matching-up dogs so that the group dynamics is optimal for social learning.  Professional Dog Walkers know that preventing aggressive behavior is a proactive process that involves managing energy, not just behavior.</p>
         <p>Before any dog steps foot into our facility, they’ve already gone for a group run at a dog park managed by a Professional Dog Walker.</p>
+        <p>
+        We have a 3,500 sqft faciliity located in the South-West end of Scarborough.  We're properly zoned to have dogs at our facility during the day, and overnight.
+        </p>
 
         <h4>The Experience</h4>
         <p>The dogs get back from their morning run between 11:30am and 12:30pm.  For the first two hours after being drop-off, the dogs sleep - they’re so wiped-out from their group run.  After that they start to walk around, pick-up a ball or rope toy.  Eventually, some will engage in light play.  Some dogs are still laying down, some are still sleeping.  By 2:30pm, all the dogs are up and some are actively playing with others.  This is when we’ll begin engaging them with command work or controlled play.  By around 3:30pm we’ll take them out again for a leash walk and bathroom break.</p>
