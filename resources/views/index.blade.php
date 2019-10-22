@@ -15,7 +15,7 @@
                     <div class="section-heading text-center">
                         <h2 class="hidden-xs">WHAT WE'RE UP TO</h2>
                         <h2 class="visible-xs">SERVICES</h2>
-                        <span class="hidden-xs"> We're obsessed with making a dog's day</span>
+                        <span class="hidden-xs"> We're obsessed with making a dog's days</span>
                     </div>
                 </div>
             </div>
