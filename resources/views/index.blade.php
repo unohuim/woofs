@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading-second text-center">
-                        <h2 class="hidden-xs"><span>Woofs</span> Upon A Walk will treat your dog like family</h2>
+                        <h2 class="hidden-xs"><span>Woofs</span> Upon A Walk will treat your dog like familys</h2>
                         <h2 class="visible-xs"><span>Family</span> values</h2>
                     </div>
                 </div>
