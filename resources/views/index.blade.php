@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-md-6 col-sm-5">
                     <div class="talk-content">
-                        <h2>Let's Talk</h2>
+                        <h2>Let's Talks</h2>
                         <p>Whether you're getting a new puppy or moving across town, we'd love to hear from you. We can set up a meet n greet, or perhaps you only have questions at this point. Wherever you are in the process is perfectly fine with us - we love talking about animals!</p>
                     </div>
                 </div>
