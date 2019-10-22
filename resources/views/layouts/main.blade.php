@@ -46,10 +46,7 @@
 		  <ul class="c-menu__items">
 		    <li class="c-menu__item"><a href="home" class="c-menu__link">Home</a></li>
 		    <li class="c-menu__item"><a href="about" class="c-menu__link">About</a></li>
-		    <li class="c-menu__item"><a href="dog-training" class="c-menu__link">WoofsU</a></li>
 		    <li class="c-menu__item"><a href="service-areas" class="c-menu__link">Service Areas</a></li>
-		    <li class="c-menu__item"><a href="gallery" class="c-menu__link">Gallery</a></li>
-		    <li class="c-menu__item"><a href="blog" class="c-menu__link">Blog</a></li>
 		    <li class="c-menu__item"><a href="inquire" class="c-menu__link">Inquire</a></li>
 		    <li class="c-menu__item">Call us <a href="tel:647-549-9663">647-549-9663 (WOOF)</a></li>
 		  </ul>
