@@ -32,7 +32,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a href="{{ route( 'inquire' ) }}"><button class="btn btn-success btn-lg title">INQUIRE</button></a>
+                    <a href="inquire" }}><button class="btn btn-success btn-lg title">INQUIRE</button></a>
                     <a href="#ourservices"><button class="btn btn-info btn-lg title">MORE</button></a>
                 </div>
             </div>   
