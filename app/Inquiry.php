@@ -17,6 +17,4 @@ class Inquiry
 	public $time;
 	public $page_source;
 
-
-
 }
