@@ -12,7 +12,8 @@ class InquiryController extends Controller
     //user visits the inquire page
     public function inquire()
     {
-        return view('inquiry.inquire_caninex');
+        return view('inquiry.inquire2');
+        //return view('inquiry.inquire_caninex');
     	//return view( 'inquiry.inquire' );
     }
 
