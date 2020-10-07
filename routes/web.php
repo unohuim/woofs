@@ -43,7 +43,7 @@ Route::get('inquire', [
 ]);
 
 
-Route::post( 'inquire_thankyou', [
+Route::any( 'inquire_thankyou', [
 	'as' => 'inquire_thankyou',
 	'uses' => 'InquiryController@inquireThankyou'
 ]);
