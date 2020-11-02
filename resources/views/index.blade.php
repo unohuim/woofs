@@ -150,77 +150,88 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="row">
                 <div class="col-sm-6">
                     <div class="contact-left">
                         <p>Whether you’re getting a new puppy or moving across town, we’d love to hear from you. We can set up a meet n greet, or perhaps you only have questions at this point. Wherever you are in the process is perfectly fine with us – we love talking about animals! We can offer you advice and put your mind at ease that you are dealing with exceptional dog walkers in Toronto! Let us do the hard work for you when you’re too busy with work to walk your dog. We know you love your dog and some days it can be hard to get all your other work done and walk your dog at the same time. We can help you on days like this so you can relax knowing your dog is being walked by people you can trust.</p>
                     </div>
                 </div>
+
+
+
                 <div class="col-sm-6">
                     <div class="contact-right">
-                        <form class="form-horizontal" action="{{ url( 'inquire_thankyou' ) }}" method="post">
-                        <fieldset>
+                        
+                        <form class="form-horizontal" action="https://caninex.com/leads/5/store?signature=3f071b83a1e0814db1c71e27630579f3c5050a3b47439bd8fdfa2a5566cc92e3" method="post">
 
-                            {{ csrf_field() }}
+                            <fieldset>
+                                
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="pet_name">Your pet name</label>  
+                                    <div class="col-sm-9">
+                                        <input id="pet_name" name="pet_name" type="text" placeholder="Enter your pet name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="client_name">Your name</label>  
+                                    <div class="col-sm-9">
+                                        <input id="client_name" name="client_name" type="text" placeholder="Your name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="major_intersection">Closest Intersection</label>  
+                                    <div class="col-sm-9">
+                                        <input id="major_intersection" name="major_intersection" type="text" placeholder="Intersection" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="client_email">Your email</label>  
+                                    <div class="col-sm-9">
+                                        <input id="client_email" name="client_email" type="email" placeholder="youremail@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="client_phone">Phone</label>  
+                                    <div class="col-sm-9">
+                                        <input id="client_phone" name="client_phone" type="text" placeholder="Your Phone" required>
+                                    </div>
+                                </div>
+
+                                <!-- Textarea -->
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="client_message">Message</label>
+                                    <div class="col-sm-9">                     
+                                        <textarea id="client_message" name="client_message" rows="7" placeholder="Your messages"></textarea>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label" for="client_source">How did you find us?</label>  
+                                    <div class="col-sm-9">
+                                        <input id="client_source" name="client_source" type="text" placeholder="" required>
+                                    </div>
+                                </div>
+
+                               
+                                
+
+                                <!-- captcha -->
+                                <div class="form-group no-border">
+                                    <div class="col-sm-8 col-sm-push-3">
+
+                                        <button type="submit" name="submit" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </div>
+
+                            </fieldset>
                             
-                            <input type="hidden" name="page_source" value="home" />
-
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="textinput">PET'S NAME</label>  
-                                <div class="col-md-8">
-                                    <input id="textinput" name="petname" type="text" placeholder="Enter your pet's name">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="yourname">YOUR FULL  NAME</label>  
-                                <div class="col-md-8">
-                                    <input id="yourname" name="name" type="text" placeholder="Your name" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="youremail">YOUR EMAIL</label>  
-                                <div class="col-md-8">
-                                    <input id="youremail" name="email" type="email" placeholder="youremail@example.com" required>
-                                </div>
-                            </div>
-
-                             <div class="form-group">
-                                <label class="col-md-4 control-label" for="phone">Phone</label>  
-                                <div class="col-md-8">
-                                    <input id="phone" name="phone" type="text" placeholder="Your Phone" required>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="yourintersection">INTERSECTION</label>  
-                                <div class="col-md-8">
-                                    <input id="yourintersection" name="intersection" type="text" placeholder="closest intersection" required>
-                                </div>
-                            </div>
-
-                            <!-- Textarea -->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="textarea">Message</label>
-                                <div class="col-md-8">                     
-                                    <textarea id="textarea" name="message" rows="3" placeholder="Your messages"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-md-8 col-md-offset-4">     
-                                    <div class="g-recaptcha" data-sitekey="6LfWWSQTAAAAAM68egPOuKGsJ6NBK6XtF7cG9ep_"></div>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-md-12">                     
-                                    <button type="submit" name="submit" class="con-btn">INQUIRE</button>
-                                </div>
-                            </div>
-
-                        </fieldset>
                         </form>
+
                     </div>
                 </div>
             </div>
