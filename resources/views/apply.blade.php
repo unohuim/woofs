@@ -27,3 +27,5 @@
     $("#page_banner").addClass( 'page-banner-daycare' );
     $("#page_content").addClass( 'about-content' );
 @stop
+
+
